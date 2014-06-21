@@ -1,3 +1,5 @@
+setwd("c:\\temp")
+library("reshap2")
 # STEP 1: read data training,test and features
 trainingX <- read.table(".\\project\\train\\X_train.txt")
 trainingY <- read.table(".\\project\\train\\y_train.txt")
